@@ -5,12 +5,33 @@
     font-style: normal;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'MinhaFonteCustomizada', sans-serif;
     background-color: #000000;
 }
 
+main {
+    display: grid;
+    align-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
 h1 {
     color: #FFFFFF;
-    font-size: 2.5em;
+    font-size: 3em;
+    margin: 1em 0;
+    font-weight: 500;
+}
+
+.perfis {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2.7em;
 }
