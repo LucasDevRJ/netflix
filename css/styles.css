@@ -44,10 +44,14 @@ p {
     gap: 2.7em;
 }
 
- 
-.perfil:hover p {
-    color: #FFFFFF;
+.perfil {
+    opacity: 0.7;
+}
+
+.perfil:hover {
+    opacity: 1;
     cursor: pointer;
+    font-weight: bold;
 }
 
 img {
@@ -82,4 +86,5 @@ img:hover {
     border-color: #FFFFFF;
     color: #FFFFFF;
     opacity: 1;
+    cursor: pointer;
 }
