@@ -13,14 +13,24 @@
 body {
     font-family: 'MinhaFonteCustomizada', sans-serif;
     background-color: #000000;
-    min-height: 100vh;
 }
 
 main {
-    display: grid;
     align-content: center;
     height: 100vh;
     text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#botaoAlterarTema {
+    position: absolute;
+    right: 2em;
+    top: 2em;
+    border: none;
 }
 
 h1 {
@@ -28,7 +38,7 @@ h1 {
     font-size: 3em;
     margin: 1em 0;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 0.12em;
 }
 
 p {
@@ -55,9 +65,9 @@ p {
     font-weight: bold;
 }
 
-img {
+.perfil img {
     width: 100%;
-    height: 150px;
+    height: 25vh;
     border-radius: 5px;
 }
 
@@ -75,12 +85,12 @@ img:hover {
     margin-top: 4em;
     padding: 0.8em 1.9em;
     background-color: #000000;
-    border: 1px solid #FFFFFF;
+    border: 0.08rem solid #FFFFFF;
     color: #FFFFFF;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     opacity: 0.6;
-    letter-spacing: 3px;
+    letter-spacing: 0.30em;
 }
 
 .botao:hover {
@@ -89,3 +99,76 @@ img:hover {
     opacity: 1;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+    #botaoAlterarTema {
+        order: -1;
+        height: 10vh;
+        margin: 1em 0;
+        top: 0.4em;
+    }
+
+    header {
+        padding: 2em;
+    }
+
+    h1 {
+        font-size: 2.3em;
+        letter-spacing: 0.12em;
+        margin: 2em 0.2em;
+    }
+
+    .perfis-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        height: 26vh;
+    }
+
+    .botao {
+        margin: 3em 0;
+        padding: 0.8em 1.4em;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #botaoAlterarTema {
+        position: relative;
+        right: inherit;
+        top: inherit;
+        order: -1;
+        height: 10vh;
+        margin: 1em 0;
+    }
+
+    h1 {
+        font-size: 1.2em;
+        letter-spacing: 0.12em;
+        margin: 2em 0;
+    }
+
+    .perfis-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        height: 18vh;
+    }
+
+    .botao {
+        margin: 3em 0;
+        padding: 0.7em 1.2em;
+        font-size: 0.8em;
+    }
+}
+
+

@@ -1,0 +1,21 @@
+.tema-claro {
+    background-color: #FFFFFF;
+}
+
+.tema-claro h1, .tema-claro p {
+    color: #000000;
+}
+
+.tema-claro .perfil, .botao {
+    opacity: 1;
+}
+
+.tema-claro .perfil:hover {
+    p {
+        color: yellow;
+    }
+
+    img {
+        border-color: yellow;
+    }
+}
