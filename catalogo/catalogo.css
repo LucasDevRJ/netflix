@@ -470,6 +470,10 @@ a:hover {
         padding: 2em 0;
     }
 
+    .navbar-left {
+        padding: 1em 0;
+    }
+
     .slider-section {
         display: flex;
         flex-direction: column;
