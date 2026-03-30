@@ -45,14 +45,5 @@ export const categories = [
             { img: "https://external-preview.redd.it/the-fullmetal-alchemist-2003-anime-is-a-masterpiece-of-v0-Nkr-MkapsAxQOaqPruZSyZ_VdWEdKWzd4TGQRHNfRic.jpg?width=640&crop=smart&auto=webp&s=a8cc18baa6e25ef90f40fda871f5310a16183cd4", badge: "Novidade", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=kx0nBaS_q50" },
 
         ]
-    },
-    {
-        title: "Para maratonar",
-        items: [
-            { img: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=600&auto=format&fit=crop", top10: true, youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
-            { img: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=600&auto=format&fit=crop", top10: true, badge: "Novidade", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
-            { img: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=600&auto=format&fit=crop", top10: true, badge: "Novo episódio", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
-            { img: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=600&auto=format&fit=crop", top10: true, badge: "Novo episódio", badgeColor: "red", youtube: "https://www.youtube.com/watch?v=wLo9bfgla4k" },
-        ]
     }
 ];
